@@ -1,0 +1,103 @@
+<html>
+<head><title>V.K college Of Arts and Science</title>
+<style>
+#header
+{
+background-color:rgb(206, 248, 253);
+text-align:center;
+padding:2px;
+}
+#logo
+{
+position:absolute;
+margin-top:5px;
+margin-left:5px;
+}
+.{
+padding:0;
+margin:0;
+font-family:monospace;
+}
+ul
+{
+list-style:none;
+background-color:white;
+text-align:center;
+}
+ul li
+{
+display:inline-block;
+position:relative;
+}
+ul li a
+{
+display:block;
+padding:20px 25px;
+font-size:30px;
+color:blue;
+text-decoration:none;
+text-align:center;
+}
+ul li ul.dropdown li
+{
+display:block;
+}
+ul li ul.dropdown
+{
+width:200px;
+background:rgb(236, 239, 243);
+position:absolute;
+z-index:999;
+display:none;
+}
+ul li a:hover
+{
+background:rgb(229, 238, 245);
+border-radius: 30px;
+}
+ul li:hover ul.dropdown
+{
+display:block;
+}
+#footer
+{
+background-color:black;
+color:#fff;
+text-align:center;
+padding:2px;
+}
+</style>
+</head>
+<body>
+<header id="header">
+<div>
+<h1 align="center">
+V.K College Of Arts and Science
+</div>
+<div class="logo"><a href="#"><img src="imagelogo3-removebg-preview.png" width="200px" height="100px"></a>
+</div>
+</header>
+<ul>
+<li><a class="active" href="#">Home</a></li>
+<li><a href="about.html">About us</a></li>
+<li><a href="library.html">Library</a></li>
+<li><a href="sports.html">sports</a></li>
+<li><a href="#">Department </a>
+<ul class="dropdown">
+<li><a href="cs.html"><i>Computer Science</i></a></li><br>
+<li><a href="bio.html"><i>Bio Chemistry</i></a></li><br>
+<li><a href="micro.html"><i>Micro Biology</i></a></li><br>
+<li><a href="english.html"><i>English</i></a></li>
+</ul>
+</li>
+</ul>
+<div align="center">
+<img id="img1" src="college.jpg" style="width:100%"><br><br>
+<footer id="footer">
+<div>
+<h1 align="center">
+<p>Copyright © 2019 - 2023 All rights reserved | Designed by Department of Computer Science, V.K College of Arts and Science</p>
+</div>
+</div>
+</body>
+</html>
